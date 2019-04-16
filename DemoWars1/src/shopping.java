@@ -19,14 +19,21 @@ public class shopping {
 
 	@Test
 	public void speakers() {
-		desktop.<DomElement>find("nimbusserver.BrowserWindow.20").click();
-		desktop.<DomElement>find("nimbusserver.BrowserWindow.#54B3AD").click();
-		desktop.<DomElement>find("nimbusserver.BrowserWindow.speakersImg").click();
-		desktop.<DomElement>find("nimbusserver.BrowserWindow.20").click();
-		desktop.<DomButton>find("nimbusserver.BrowserWindow.save_to_cart").click();
-		desktop.<DomElement>find("nimbusserver.BrowserWindow.menuCart").click();
-		desktop.<DomLink>find("nimbusserver.BrowserWindow.REMOVE").click();
-		desktop.<DomLink>find("nimbusserver.BrowserWindow.CONTINUE SHOPPING").click();
+		//desktop.<DomElement>find("nimbusserver.BrowserWindow.20").click();
+		//desktop.<DomElement>find("nimbusserver.BrowserWindow.#54B3AD").click();
+		//desktop.<DomElement>find("nimbusserver.BrowserWindow.speakersImg").click();
+		//desktop.<DomElement>find("nimbusserver.BrowserWindow.20").click();
+		//desktop.<DomButton>find("nimbusserver.BrowserWindow.save_to_cart").click();
+		//desktop.<DomElement>find("nimbusserver.BrowserWindow.menuCart").click();
+		//desktop.<DomLink>find("nimbusserver.BrowserWindow.REMOVE").click();
+		//desktop.<DomLink>find("nimbusserver.BrowserWindow.CONTINUE SHOPPING").click();
+		
+		desktop.<DomElement>find("advantageonlineshopping_com.BrowserWindow.speakersImg").click();
+		desktop.<DomElement>find("advantageonlineshopping_com.BrowserWindow.20").click();
+		desktop.<DomButton>find("advantageonlineshopping_com.BrowserWindow.save_to_cart").click();
+		desktop.<DomElement>find("advantageonlineshopping_com.BrowserWindow.menuCart").click();
+		desktop.<DomLink>find("advantageonlineshopping_com.BrowserWindow.REMOVE").click();
+		desktop.<DomLink>find("advantageonlineshopping_com.BrowserWindow.CONTINUE SHOPPING").click();
 	}
 
 }
